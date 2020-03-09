@@ -8,7 +8,7 @@ mouse.forEach(letterInner => {
     })
 })
 
-let letters = document.querySelectorAll('.box');
+
 document.addEventListener('keydown', someBtn => {
     if (someBtn.code == "KeyA") {
         new Audio('./audio/A.mp3').play();
